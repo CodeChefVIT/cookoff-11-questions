@@ -1,0 +1,19 @@
+8
+1
+2
+4
+8
+16
+1024
+1023
+1025
+
+Output :
+YES
+YES
+YES
+YES
+YES
+YES
+NO
+NO
