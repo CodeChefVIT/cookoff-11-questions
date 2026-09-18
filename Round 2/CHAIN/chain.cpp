@@ -4,32 +4,36 @@ using namespace std;
 int main(void) {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr); 
-    int n;
-    cin >> n;
-    vector<int> arr(n);
-    for (int i = 0; i < n; i++) {
-        cin >> arr[i];
-    }
-    unordered_set<int> hashset;
-    for (int i = 0; i < n; i++) {
-        hashset.insert(arr[i]);
-    }
-    int maxlen = 0;
-    for (int value : hashset) {
-        int chain = 1;
-        int v = value;
-        if (hashset.count(v - 1)) {
-            continue;
+    int t;
+    cin >> t; 
+    while (t--) {
+        int n;
+        cin >> n;
+        vector<int> arr(n);
+        for (int i = 0; i < n; i++) {
+            cin >> arr[i];
         }
-        while (hashset.count(v + 1)) {
-            v += 1;
-            chain += 1;
+        unordered_set<int> hashset;
+        for (int i = 0; i < n; i++) {
+            hashset.insert(arr[i]);
         }
-        if (chain > maxlen) {
-            maxlen = chain;
+        int maxlen = 0;
+        for (int value : hashset) {
+            int chain = 1;
+            int v = value;
+            if (hashset.count(v - 1)) {
+                continue;
+            }
+            while (hashset.count(v + 1)) {
+                v += 1;
+                chain += 1;
+            }
+            if (chain > maxlen) {
+                maxlen = chain;
+            }
         }
+        cout << maxlen << "\n";
     }
-    cout << maxlen << "\n";
     return 0;
 }
 /*

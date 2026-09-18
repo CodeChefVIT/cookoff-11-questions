@@ -10,7 +10,7 @@ Chef has found himself in 5th century India, in the court of the local ruler, wh
 
 ## Constraints
 
-- `1 ≤ T ≤ 1000`
+- `1 ≤ T ≤ 10^5`
 - `1 ≤ n ≤ 10^18`
 
 ## Output Format

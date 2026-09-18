@@ -23,7 +23,7 @@ Formally, you are given an array `arr` that is a permutation of the integers `1,
 
 ## Constraints
 
-- `1 ≤ N ≤ 10^9`
+- `1 ≤ N ≤ 10^6`
 - `arr` is a permutation of `1, 2, ..., N`
 
 ## Output Format

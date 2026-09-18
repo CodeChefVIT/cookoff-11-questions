@@ -12,7 +12,7 @@ Back in the present, Chef has found himself in a spot of trouble. His arch-nemes
 ## Constraints
 
 - `1 ≤ T ≤ 1000`
-- `2 ≤ n ≤ 2000`
+- `2 ≤ n ≤ 10^5`
 - `n` is always even
 - `1 ≤ arr[i] ≤ 10^6`
 - The sum of `arr[i]` over all ingredients in a test case is always odd

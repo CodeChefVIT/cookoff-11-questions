@@ -7,8 +7,8 @@ int main(void) {
     while (t--) {
         int n;
         cin >> n; 
-        int p = 5;
-        int v = 0; 
+        long long int p = 5;
+        long long int v = 0; 
         while (n / p > 0) {
             v += (n / p); 
             p *= 5; 

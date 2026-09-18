@@ -15,7 +15,7 @@ Formally, Chef is initially given a list of `n` integers, and an integer `k`. He
 
 ## Constraints
 
-- `1 ≤ k ≤ n + r`
+- `1 ≤ k ≤ n`
 - `1 ≤ n ≤ 10^5`
 - `1 ≤ r ≤ 10^5`
 - `1 ≤` (size of any empire) `≤ 10^9`
