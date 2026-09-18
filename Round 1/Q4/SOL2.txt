@@ -1,0 +1,5 @@
+N=0
+|
+N+=amount//c
+|
+Amount=amount%c

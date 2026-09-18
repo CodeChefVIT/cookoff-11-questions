@@ -1,0 +1,1 @@
+Chef’s making a new recipe for a Coming of Tribes warriors coming of age. They hand him a recipe but its made of numbers. The chief tells chef that all odd numbers are poisonous plants but putting an multiple of 4 or 2 number of poisonous plants neutralizes their poison!!!He’s given N recipes .Output how many of those are poisonous with true or false

@@ -1,0 +1,17 @@
+For each x in input
+|
+    K=""
+|
+    i=0
+|
+    While x!=0:
+|
+        At the end of k put string(x%(x^i+1))
+|
+    If x==10
+|
+        Print 10
+|
+    If x==2
+|
+        Print 2

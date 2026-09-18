@@ -1,0 +1,3 @@
+Chef’s collecting ingredients for his journey through time , he had made list of all ingredients that were in it ,he had given an id for each ingredient so he could write their names efficiently before he left to get some more. When he returns he notices there’s an extra ingredient in the pot!!
+He remakes the list and it seems that the mystery ingredient randomly appeared without disturbing the relative position of other ingredients.
+Given both the lists help him find the mystery ingredient efficiently ,if he uses each ingredient only once

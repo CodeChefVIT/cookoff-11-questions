@@ -1,0 +1,9 @@
+i= len(L)
+for i = n down to 3:
+    a = L[i-2]
+    b = L[i-1]
+    c = L[i]
+    if a + b > c:
+        return a + b + c
+return -1
+sort L ascending

@@ -1,0 +1,5 @@
+R=sum(old_pot)
+|
+L=sum(new_pot)
+|
+Return L-R
