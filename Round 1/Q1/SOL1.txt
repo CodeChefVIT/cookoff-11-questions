@@ -1,0 +1,17 @@
+Read N
+|
+Read the array
+|
+answer = -inf
+|
+current = 0
+|
+For each element x in the array
+|
+    current += x
+|
+    current = max(current, x)
+|
+    answer = max(answer, current)
+|
+Return answer

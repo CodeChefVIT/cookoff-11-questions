@@ -1,0 +1,15 @@
+Read N
+|
+Read the array
+|
+answer = -inf
+|
+For every starting index
+|
+    For every ending index
+|
+        Compute subarray sum
+|
+        Update answer
+|
+Return answer
