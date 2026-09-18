@@ -1,6 +1,6 @@
 # Price Tag
 
-Chef has found himself in 5th century India, in the court of the local ruler, who is an extremely wealthy person. Chef has successfully impressed the ruler with the quality of his cooking, and is now due to receive a reward. He is taken to a chessboard of effectively infinite size, where the ruler places one gold coin on the first square (a1), two on the second (b1), four on c1, and so on. Assume that each square can fit the required number of coins. Given an integer `n`, can you determine whether that is the number of coins placed on some square on the board?
+Chef has found himself in the year 770 A.D. in India, in the court of the local ruler, who is an extremely wealthy person. Chef has successfully impressed the ruler with the quality of his cooking, and is now due to receive a reward. He is taken to a chessboard of effectively infinite size, where the ruler places one gold coin on the first square (a1), two on the second (b1), four on c1, and so on. Assume that each square can fit the required number of coins. Given an integer `n`, can you determine whether that is the number of coins placed on some square on the board?
 
 ## Input Format
 

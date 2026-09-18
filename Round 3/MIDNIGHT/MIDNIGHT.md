@@ -1,6 +1,6 @@
 # Midnight Sun
 
-The year is 2247. Humanity has begun exploring the far reaches of space, but some regions remain dangerously unpredictable. One such region is known as the Midnight Sun thanks to its incredible brightness.
+The year is 2194. Humanity has begun exploring the far reaches of space, but some regions remain dangerously unpredictable. One such region is known as the Midnight Sun thanks to its incredible brightness.
 
 Scientists know that the Midnight Sun occupies an area of exactly `S` square units. They also know that its boundaries form a rectangle with positive integer side lengths, with its bottom-left corner fixed at the origin `(0, 0)`. However, the exact dimensions of the Midnight Sun have been lost.
 

@@ -1,6 +1,6 @@
 # Dark Horse 
 
-In Ancient Egypt, Chef is having a conversation with a priest. He has laid out a row of sacred stones before him, and must escape the chamber by leaping across them. Each stone bears an inscription indicating how far Chef may leap forward from it. Starting at the first stone, Chef wants to know whether he can reach the final stone and escape. Help Chef perform this task.
+In Cleopatra's Egypt, around 32 B.C., Chef is having a conversation with a priest. He has laid out a row of sacred stones before him, and must escape the chamber by leaping across them. Each stone bears an inscription indicating how far Chef may leap forward from it. Starting at the first stone, Chef wants to know whether he can reach the final stone and escape. Help Chef perform this task.
 
 Formally, Chef is given an array `arr` of `n` sacred stones, indexed `0` to `n-1`. Chef begins standing on stone `0`. From stone `i`, Chef may leap forward to land on any stone `j` such that `i < j ≤ i + arr[i]` (he cannot leap backward, and cannot leap past the last stone). Determine whether Chef can reach stone `n-1` starting from stone `0`.
 
