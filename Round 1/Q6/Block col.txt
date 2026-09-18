@@ -1,0 +1,5 @@
+Set A==Set B
+if length(A) != length(B):
+    return False
+concat= A + A
+Return if b in a

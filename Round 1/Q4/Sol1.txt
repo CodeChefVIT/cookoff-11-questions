@@ -1,0 +1,13 @@
+Make an array of infinities d
+|
+d[0] = 0
+|
+for v = 1 to maxV:
+|
+    for each c in coins:
+|
+        if c <= v and d[v-c] + 1 < d[v]:
+|
+            d[v] = d[v-c] + 1
+|
+return d

@@ -1,0 +1,1 @@
+Chef found some recipes for a magical dish for 2 great gurus . But the gurus believe that all recipes where just moving the last ingredient to the front are the same but the rest are not .But the 2 gurus do not want the same recipes and sometimes they like to move these ingredients quite a bit .Help chef check if these 2 given recipes are the same with these rules

@@ -1,0 +1,1 @@
+Chef’s tired and wants to setup a bonfire . He can use 3 sticks to setup the fire and the perimeter of the sticks decided how long the 3 sticks will burn .Alas the rain had made the ground wet and he must arrange the sticks into a triangle so they don’t fall onto the ground and fizzle out.He has N sticks with their lengths given.

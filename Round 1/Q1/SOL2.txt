@@ -1,0 +1,17 @@
+Read N
+|
+Read the array
+|
+Compute prefix sums
+|
+answer = -inf
+|
+For every starting index
+|
+    For every ending index
+|
+        Compute subarray sum
+|
+        Update answer
+|
+Return answer

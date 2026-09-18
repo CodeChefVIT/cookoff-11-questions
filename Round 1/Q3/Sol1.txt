@@ -1,0 +1,23 @@
+left = 1
+|
+right = n
+|
+best = 0
+|
+while left < right:
+|
+    height = min(A[left], A[right])
+|
+    width = right - left
+|
+    best = max(best, height * width)
+|
+    if A[left] < A[right]:
+|
+        left = left + 1
+|
+    else:
+|
+        right = right - 1
+|
+return best

@@ -1,0 +1,3 @@
+Chef is designing a rainwater harvesting system for his new restaurant. He has N vertical walls placed in a straight line on a flat ground. The walls are placed exactly 1 unit of horizontal distance apart from each other, and the i-th wall has a height of A[i].
+Chef wants to choose exactly two walls to form the boundaries of a water tank. The maximum amount of water this tank can hold is determined by the height of the shorter wall multiplied by the horizontal distance between the two chosen walls. Any walls between the two chosen boundaries do not affect the capacity, and water cannot be stored outside the chosen boundaries.
+Help Chef find the maximum volume of water his tank can hold.

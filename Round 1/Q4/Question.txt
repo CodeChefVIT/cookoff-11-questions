@@ -1,0 +1,3 @@
+Chef is bartering across fractured timelines and has picked up a chest of ancient coinage. The chest contains M distinct coin denominations, and Chef has effectively unlimited supply of each. He must settle debts with N merchants across the ages, each demanding an exact amount. Chef, ever thrifty, wants to hand over the fewest physical coins possible for each debt — but he's superstitious and refuses to reuse a denomination combination he's already used for a smaller debt if a different combination uses fewer coins for a larger one.
+Determine the minimum number of coins Chef needs for each of the N debts, or state it is impossible if a debt cannot be settled exactly with the given denominations.
+-1 means impossible

@@ -1,0 +1,8 @@
+oddCount = 0
+for each x in recipe:
+    if x mod 2 == 1: oddCount = oddCount + 1
+end for
+return (oddCount mod 4 == 0) or (oddCount mod 2 == 0)
+K=0
+x=x^k
+Return k==0

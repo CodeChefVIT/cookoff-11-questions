@@ -1,0 +1,21 @@
+Read N
+Read the array
+answer = -inf
+current = 0
+For each element x in the array
+current += x
+current = max(current, x)
+answer = max(answer, current)
+Return answer
+Sort the array
+Compute prefix sums
+For every starting index
+For every ending index
+Compute subarray sum
+Update answer
+Binary Search
+Create a Queue
+Push into a Priority Queue
+Reverse the array
+Return "YES"
+Return "NO"
