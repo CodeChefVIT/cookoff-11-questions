@@ -2,22 +2,36 @@ left = 1
 |
 right = n
 |
-best = 0
+leftMax = 0
+|
+rightMax = 0
+|
+total = 0
 |
 while left < right:
 |
-    height = min(A[left], A[right])
+    if H[left] < H[right]:
 |
-    width = right - left
+        if H[left] >= leftMax:
 |
-    best = max(best, height * width)
+            leftMax = H[left]
 |
-    if A[left] < A[right]:
+        else:
+|
+            total = total + (leftMax - H[left])
 |
         left = left + 1
 |
     else:
 |
+        if H[right] >= rightMax:
+|
+            rightMax = H[right]
+|
+        else:
+|
+            total = total + (rightMax - H[right])
+|
         right = right - 1
 |
-return best
+return total
