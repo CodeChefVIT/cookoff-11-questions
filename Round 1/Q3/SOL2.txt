@@ -1,5 +1,3 @@
-function totalWaterPrecompute(H[1..n]):
-|
 leftMax[1..n] = array of zeros
 |
 rightMax[1..n] = array of zeros
