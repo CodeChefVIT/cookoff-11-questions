@@ -1,5 +1,27 @@
-For I from 0 to len(A):
+function totalWaterPrecompute(H[1..n]):
 |
-    For j from I to len(A):
+leftMax[1..n] = array of zeros
 |
-        Best=max of (A[i]-A[j])*(j-i),Best
+rightMax[1..n] = array of zeros
+|
+leftMax[1] = H[1]
+|
+for i = 2 to n:
+|
+    leftMax[i] = max(leftMax[i-1], H[i])
+|
+rightMax[n] = H[n]
+|
+for i = n-1 downto 1:
+|
+    rightMax[i] = max(rightMax[i+1], H[i])
+|
+total = 0
+|
+for i = 1 to n:
+|
+    waterHere = min(leftMax[i], rightMax[i]) - H[i]
+|
+    total = total + waterHere
+|
+return total
