@@ -3,12 +3,13 @@ i=0
 S=0
 R=len(old_pot)
 While l<=r and r<len(new_pot):
-    m=l+r//2
-    If old_pot[m]==new_pot[m]
-        L=m+1
-    Else:
-        R=m-1
+m=l+r//2
+If m < len(old_pot) and old_pot[m] == new_pot[m]:
+L=m+1
+Else:
+R=m-1
 Return new_pot[m]
 R=sum(old_pot)
 L=sum(new_pot)
 Return L-R
+Return new_pot[l]
