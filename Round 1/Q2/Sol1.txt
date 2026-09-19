@@ -10,7 +10,7 @@ While l<=r and r<len(new_pot):
 |
     m=l+r//2
 |
-    If old_pot[m]==new_pot[m]
+    If m < len(old_pot) and old_pot[m] == new_pot[m]:
 |
         L=m+1
 |
@@ -18,4 +18,4 @@ While l<=r and r<len(new_pot):
 |
         R=m-1
 |
-Return new_pot[m]
+Return new_pot[l]
